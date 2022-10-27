@@ -8,6 +8,25 @@
   </div>
 </div>
 </main>
+
+<% if(title == "Home")  { %>
+  <%- include main_content/home.ejs %>
+  <% } %>
+
+<% if(title == "About Me")  { %>
+  <%- include main_content/about.ejs %>
+  <% } %>
+
+<% if(title == "Projects")  { %>
+  <%- include main_content/projects.ejs %>
+  <% } 
+%>
+
+<% if(title == "Contact Me")  { %>
+  <%- include main_content/contact.ejs %>
+  <% } 
+%>
+
 <%- include partials/bottom_nav.ejs %>
 <%- include partials/footer.ejs %>
 
