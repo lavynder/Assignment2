@@ -7,7 +7,7 @@
         Portfolio - Leo Fanseda
     </title>
 
-    <!-- THE STYLESHEET FOR THE CONTACT ME PAGE -->  
+    <!-- THE STYLESHEET FOR THE CONTACT ME PAGE -->
     <link href="/Content/style_contact.css" rel="stylesheet">
 
 </head>
@@ -21,44 +21,50 @@
             </h1>
         </div>
 
-        <!-- THE FRAME FOR THE FORM. THE RESPONSES ARE SENT TO THE GIVEN EMAIL -->
-        <form action="mailto: Leo.Fanseda@ontariotechu.net" ?subject="Signup" Form method enctype="text/plain"
-            name="form">
-            
-            <!-- ASKING THE USER FOR THEIR NAME -->
-            <p>
-                <label for="name"> Name </label>
-                <input name="name" type="text" placeholder="Enter your name" size="40" required>
-            </p>
-            
-            <!-- ASKING THE USER FOR THEIR EMAIL -->
-            <p>
-                <label for="email"> Email </label>
-                <input name="email" type="email" placeholder="Enter your email" size="40" required>
-            </p>
-            
-            <!-- ASKING THE USER FOR THEIR PHONE NUMBER, BUT THIS OPTION IS OPTIONAL -->
-            <p>
-                <label for="phone">Phone Number</label>
-                <input name="phone" type="tel" placeholder="Enter your phone number (optional)" size="40">
-            </p>
-            
-            <!-- ASKING THE USER FOR ANY COMMMENTS OR FEEDBACK -->
-            <p>
-                <label for="comments">Any comments or feedback? </label>
-                <textarea name="comments" cols="60" rows="6"></textarea>
-            </p>
-            
-            <!-- ASKING THE USER TO SUBMIT THEIR FORM. ALSO OFFERS THE USER TO RESET THE FORM -->
-            <p>
-                <input type="submit" value="Click here to submit the form" />
-            </p>
-            <p>
-                <input type="reset" value="Click here to reset the form" />
-            </p>
+        <div class="jumbotron-fluid">
+            <div class="container">
+                <div class="card ">
+                    <!-- THE FRAME FOR THE FORM. THE RESPONSES ARE SENT TO THE GIVEN EMAIL -->
+                    <form action="mailto: Leo.Fanseda@ontariotechu.net" ?subject="Signup" Form method
+                        enctype="text/plain" name="form">
+                    <ul class="d-flex flex-column align-items-center">
+                        <!-- ASKING THE USER FOR THEIR NAME -->
+                        <li class="w-75">
+                            <label for="name"> Name </label>
+                            <input class="w-100" name="name" type="text" placeholder="Enter your name" required>
+                        </li>
 
-        </form>
-        
+                        <!-- ASKING THE USER FOR THEIR EMAIL -->
+                        <li class="w-75">
+                            <label for="email"> Email </label>
+                            <input class="w-100" name="email" type="email" placeholder="Enter your email" required>
+                        </li>
+
+                        <!-- ASKING THE USER FOR THEIR PHONE NUMBER, BUT THIS OPTION IS OPTIONAL -->
+                        <li class="w-75">
+                            <label for="phone">Phone Number</label>
+                            <input class="w-100" name="phone" type="tel" placeholder="Enter your phone number (optional)">
+                        </li>
+
+                        <!-- ASKING THE USER FOR ANY COMMMENTS OR FEEDBACK -->
+                        <li class="w-75">
+                            <label for="comments">Any comments or feedback? </label>
+                            <textarea class="w-100" name="comments"></textarea>
+                        </li>
+
+                        <!-- ASKING THE USER TO SUBMIT THEIR FORM. ALSO OFFERS THE USER TO RESET THE FORM -->
+                        <li class="w-75">
+                            <input type="submit" value="Click here to submit the form" />
+                        </li>
+                        <li class="w-75">
+                            <input type="reset" value="Click here to reset the form" />
+                        </li>
+                    </ul>
+                    </form>
+                </div>
+            </div>
+        </div>
+
 </body>
 
 </html>

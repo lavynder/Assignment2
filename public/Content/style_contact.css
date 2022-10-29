@@ -4,11 +4,17 @@
     text-align: center;
 }
 
+ul {
+    list-style: none;
+}
 
+li {
+    padding-top: 1%;
+}
 /*  THE FORM USED FOR STANDARD AND TABLET SIZED WINDOWS 
     THE FORMAT IS GOOD FOR TABLET SIZED SCREENS AS WELL,
     HOWEVER; IT IS TOO CRAMPED FOR PHONE SIZED SCREENS */
-    @media only screen and (min-width: 481px) {
+    /* @media only screen and (min-width: 481px) {
 
         form { 
             text-align: center;
@@ -23,4 +29,4 @@
             width: 50%;
             margin-left: 5%;
         }
-    }
+    } */
