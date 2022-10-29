@@ -1,3 +1,5 @@
+<!-- REFERENCED FROM THE PROFESSOR AHMED'S VIDEOS -->
+
 <%- include partials/header.ejs %>
 <%- include partials/main_nav.ejs %>
 <!-- Main Content -->
@@ -9,6 +11,7 @@
 </div>
 </main>
 
+<!-- MAKING THE INDEX CALL THE CORRECT .ejs FILE ACCORDING TO THE main_content-->
 <% if(title == "Home")  { %>
   <%- include main_content/home.ejs %>
 
